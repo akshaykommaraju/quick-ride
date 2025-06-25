@@ -1,3 +1,11 @@
-export default function Home() {
-  return <h2>🏠 Welcome to Uber Clone Home</h2>;
+import React from "react";
+
+function Home() {
+  return (
+    <div>
+      <h1>Welcome to QuickRide</h1>
+    </div>
+  );
 }
+
+export default Home;
